@@ -22,5 +22,7 @@ namespace mf_dev_backend_2024.Models
         [Display(Name = "Ano do modelo")]
 
         public int AnoModelo { get; set; }
+
+        public ICollection<Consumo> Consumos { get; set; }
     }
 }
