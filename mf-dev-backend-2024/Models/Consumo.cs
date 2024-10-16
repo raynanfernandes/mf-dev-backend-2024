@@ -23,7 +23,7 @@ namespace mf_dev_backend_2024.Models
         [Required(ErrorMessage = "Obrigatório informar a quilometragem!")]
         public decimal Km { get; set; }
 
-        [Display(Name = "Tipo de combustível!")]
+        [Display(Name = "Tipo de combustível")]
         public TipoCombustivel Tipo { get; set; }
 
         [Display(Name = "Veículo")]
